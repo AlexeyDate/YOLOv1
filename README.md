@@ -67,11 +67,16 @@ On image:
 
 ![image2](https://user-images.githubusercontent.com/86290623/219795511-21dd8c57-387d-45cf-8f28-6bcee6621fee.jpg)
 
+## Dependencies
+* xmltodict needs to be installed
+>
+    pip install xmltodict
+
 ## Specificity
 * Using batch normalization in model architecture
 
 ## References
-* [Extraction weights from ImageNet](https://pjreddie.com/media/files/extraction.weights)
+* [Extraction weights from ImageNet](https://pjreddie.com/media/files/extraction.weights) (recommended for all trainings)
 ___
 * [African Wildlife dataset](https://www.kaggle.com/datasets/biancaferreira/african-wildlife?resource=download)
 * [African Wildlife Pytorch weights](https://drive.google.com/file/d/1V8tXqC5kN1WM3I7kk-w56RNFyL9oDAQV/view?usp=share_link)
