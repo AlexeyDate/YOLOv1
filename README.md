@@ -15,6 +15,36 @@
           ├── 001.jpg
           ├── 001.txt(xml)
         
+* In the description files, you can write the coordinates of the bounding boxes in a simple format, after this use the appropriate flag when training. Yolo format is also available and recommended. Format files as follows:
+
+**txt**
+>
+    <class> <x_min> <y_min> <x_max> <y_max>
+example:
+>
+    1 207 214 367 487
+___
+**txt** (already converted to yolo)
+>
+    <class> <x_center> <y_center> <width> <height>
+example:
+>
+    1 0.2 0.3 0.15. 0.23
+___
+**xml**
+
+example:
+>
+    <annotation>
+	<object>
+		<name>zebra</name>
+		<bndbox>
+			<xmin>71</xmin>
+			<ymin>60</ymin>
+			<xmax>175</xmax>
+			<ymax>164</ymax>
+		</bndbox>
+    
 ## Training
 > 
     python3 train.py --data_train data/train --data_test data/test --data_label data/classes.names --epochs 100 --batch_size 32 --learning_rate 1e-5 --weight_decay 0.0005 --classes 4 --save
@@ -23,7 +53,7 @@ Other train parameters:
 * --yolo_weights_path            (states: path to yolo pytorch weights)
 * --yolo_extraction_weights_path (states: path to extraction binary weights, it's base CNN module of yolo)
 * --format_file                  (states: txt or xml)
-* --convert_to_yolo              (states: exist this flag or no) if you need convert bounding boxes in the dataset to yolo format
+* --convert_to_yolo              (states: write this flag or no) if you need convert bounding boxes in the dataset to yolo format
 * --width                        (states: width of image on 1 layer)
 * --height                       (states: height of image on 1 layer)
 
