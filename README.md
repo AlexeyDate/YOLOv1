@@ -80,4 +80,4 @@ On image:
 ___
 * [African Wildlife dataset](https://www.kaggle.com/datasets/biancaferreira/african-wildlife?resource=download)
 * [African Wildlife Pytorch weights](https://drive.google.com/file/d/1V8tXqC5kN1WM3I7kk-w56RNFyL9oDAQV/view?usp=share_link)
-* [Optimizer African Wildlife state](https://drive.google.com/u/1/uc?id=1V8tXqC5kN1WM3I7kk-w56RNFyL9oDAQV&export=download)
+* [African Wildlife optimizer state](https://drive.google.com/u/1/uc?id=1V8tXqC5kN1WM3I7kk-w56RNFyL9oDAQV&export=download)
