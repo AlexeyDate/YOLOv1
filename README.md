@@ -29,7 +29,7 @@ ___
     <class> <x_center> <y_center> <width> <height>
 example:
 >
-    1 0.2 0.3 0.15. 0.23
+    1 0.2 0.3 0.15 0.23
 ___
 **xml**
 
