@@ -68,14 +68,17 @@ On image:
 ![image2](https://user-images.githubusercontent.com/86290623/219795511-21dd8c57-387d-45cf-8f28-6bcee6621fee.jpg)
 
 ## Dependencies
-* xmltodict
-> Version: 0.13.0
-* PyTorch
+**PyTorch** 
 > Version: 1.13.1
-* Albumentations
+
+**Albumentations**
 > Version: 1.3.0
-* OpenCV
+
+**OpenCV**
 > Version: 4.7.0
+
+**xmltodict**
+> Version: 0.13.0
 
 
 ## Specificity
