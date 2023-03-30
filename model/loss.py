@@ -16,7 +16,7 @@ class YoloLoss(nn.Module):
         self.lambda_noobj = 0.5
         self.lambda_coord = 5
 
-    """"
+    """
     target = [P, x, y, w, h, c1, c2, c3] 
     prediction = [P, x, y, w, h, P, x, y, w, h, c1, c2, c3]
     expected shape of predictions = S * S * (5 * B + C) * batch_size
