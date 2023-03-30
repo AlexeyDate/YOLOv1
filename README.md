@@ -49,7 +49,7 @@ example:
 > 
     python3 train.py --data_train data/train --data_test data/test --data_label data/classes.names --epochs 100 --batch_size 32 --learning_rate 1e-5 --weight_decay 0.0005 --classes 4 --save
 
-Other train parameters:
+Other training parameters:
 * --yolo_weights_path            (states: path to yolo pytorch weights)
 * --yolo_extraction_weights_path (states: path to extraction binary weights, it's base CNN module of yolo)
 * --format_file                  (states: txt or xml)
