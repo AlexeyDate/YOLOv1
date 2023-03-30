@@ -67,7 +67,7 @@ def non_max_supression(bboxes, iou_threshold, threshold):
 
 def convert_to_yolo(bbox, grid_cell_x, grid_cell_y, S):
     """
-    convert prediction coordinates to yolo standart format
+    convert prediction coordinates to yolo standard format
     x, y relative to grid cell convert to relative to image
     """
 
@@ -80,13 +80,13 @@ def convert_to_yolo(bbox, grid_cell_x, grid_cell_y, S):
 
 def get_bound_boxes(loader, model, iou_threshold=0.5, threshold=0.4, device='cpu'):
     """
-    get prediction and target bound boxes with non-maximum supression
+    get prediction and target bounding boxes with non-maximum supression
 
     param: loader - dataloader
     param: model - model
-    param: device - device of the initialized model (cpu or gpu)
     param: iou_threshold - threshold of IOU (default = 0.5)
     param: threshold - threshold of confidience (default = 0.4)
+    param: device - device of the initialized model (cpu or gpu)
 
     return: all prediction bound boxes, all true bound boxes
     """
