@@ -85,6 +85,8 @@ On image:
 * Using batch normalization in model architecture
 
 ## References
+* [Original YOLOv1 paper](https://arxiv.org/pdf/1612.08242.pdf)
+___	
 * [Extraction weights from ImageNet](https://pjreddie.com/media/files/extraction.weights) (recommended for all trainings)
 ___
 * [African Wildlife dataset](https://www.kaggle.com/datasets/biancaferreira/african-wildlife?resource=download)
