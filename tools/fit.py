@@ -24,6 +24,7 @@ def fit(model, optimizer, scheduler, criterion, epochs, train_dataloader, val_da
 
     param: model - model to fitting
     param: optimizer - optimizer loss function
+    param: scheduler - optimizer scheduler
     param: criterion - loss function
     param: epochs - number of epochs
     param: train_dataloader - dataloader with training split of dataset
