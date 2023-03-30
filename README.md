@@ -1,4 +1,4 @@
-# Implementation YOLOv1 using Pytorch
+# Implementation YOLOv1 using PyTorch
 ![image1](https://user-images.githubusercontent.com/86290623/219783934-c0553408-48f6-474c-bd45-05b65c450e5b.jpg)
 
 ## Dataset
